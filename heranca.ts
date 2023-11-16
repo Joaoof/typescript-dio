@@ -18,6 +18,8 @@ class CountPF extends Count {
     constructor(cpf: number, title: string){
         super(title)
         this.cpf = cpf
+        console.log(`Conta PF Criada: ${this.title}`)
+        
     }
 }
 
@@ -27,11 +29,12 @@ class CountPJ extends Count {
     constructor(cnpj: number, title: string){
         super(title)
         this.cpnj = cnpj
+        console.log(`Conta PJ Criada: ${this.title}`);
     }
 }
 
-const cont = new CountPF(1234, 'teste')
-const cont2 = new CountPJ(1234, 'teste')
+const cont = new CountPF(1234, 'Joao')
+const cont2 = new CountPJ(1234, 'Maria')
 console.log(cont);
 console.log(cont2);
 

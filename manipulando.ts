@@ -17,6 +17,6 @@ const total: number= empresas.reduce((resultado, quantidade) => {
     return (resultado + quantidade.valorDeMercado)
 }, 0)
 
-console.log(total);
+console.log(total)
 
 
