@@ -1,6 +1,6 @@
 class Count {
-    number: number
-    title: string
+   public number: number
+   public title: string
 
     constructor(title: string) {
         this.number = this.generateAccountNumber()
