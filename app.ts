@@ -77,3 +77,13 @@ while(n < 6) {
     console.log(n)
     n++
 }
+
+const array: Array<number> = [1, 2, 3, 4, 5, 6]
+
+array.push(8)
+array.pop() // remove o ultimo array
+
+console.log('array como elemento novo adicionado:', array)
+
+
+const stringArray: Array<string> = ['a', 'b', 'c', 'd']
