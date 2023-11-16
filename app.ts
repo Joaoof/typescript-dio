@@ -67,23 +67,29 @@ validateUser(usuario)
 
 // estrutura de repetição
 
-for (let i = 0; i <= 5; i++){
-    console.log(i)
-}
+// for (let i = 0; i <= 5; i++){
+//     console.log(i)
+// }
 
-let n = 2
+// let n = 2
 
-while(n < 6) {
-    console.log(n)
-    n++
-}
+// while(n < 6) {
+//     console.log(n)
+//     n++
+// }
 
 const array: Array<number> = [1, 2, 3, 4, 5, 6]
 
 array.push(8)
 array.pop() // remove o ultimo array
 
-console.log('array como elemento novo adicionado:', array)
+array.forEach(num => {
+    if (num > 2) {
+        console.log(num)
+    }
+})
+
+// console.log('array como elemento novo adicionado:', array)
 
 
 const stringArray: Array<string> = ['a', 'b', 'c', 'd']
