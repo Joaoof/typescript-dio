@@ -61,7 +61,19 @@ function validateUser(user: string) {
     console.log(typeUser[user as keyof typeof typeUser])
 }
 
-const usuario = 'admin'
+const usuario = 'student'
 
 validateUser(usuario)
-  
+
+// estrutura de repetição
+
+for (let i = 0; i <= 5; i++){
+    console.log(i)
+}
+
+let n = 2
+
+while(n < 6) {
+    console.log(n)
+    n++
+}
