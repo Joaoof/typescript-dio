@@ -13,7 +13,7 @@ console.log(createYear)
 const displayInformation: Array<string> = empresas.map(empresas => `${empresas.nome}` + ' CEO: ' +  `${empresas.CEO}`)
 console.log(displayInformation.toString())
 
-const total = empresas.reduce((resultado, quantidade) => {
+const total: number= empresas.reduce((resultado, quantidade) => {
     return (resultado + quantidade.valorDeMercado)
 }, 0)
 
